@@ -90,7 +90,6 @@ class TaskManager {
 
     public void sortTasksByDeadline() {
         tasks.sort(Comparator.comparing(Task::getDeadline));
-        System.out.println("Task is being sorted....\n")
         System.out.println("Tasks sorted by deadline.");
     }
 
